@@ -1,0 +1,6 @@
+{
+  "author": "James Rucker <code@rucker.land>",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
