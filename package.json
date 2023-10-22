@@ -2,12 +2,17 @@
   "author": "James Rucker <code@rucker.land>",
   "devDependencies": {
     "@tsconfig/vite-react": "^2.0.1",
+    "@typescript-eslint/eslint-plugin": "^6.8.0",
+    "@typescript-eslint/parser": "^6.8.0",
+    "eslint": "^8.52.0",
     "prettier": "3.0.3",
     "typescript": "^5.2.2"
   },
   "scripts": {
     "build": "tsc",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "lint": "eslint . --max-warnings 0 --report-unused-disable-directives",
+    "lint:fix": "npm run lint -- --fix"
   },
   "version": "0.0.1"
 }
