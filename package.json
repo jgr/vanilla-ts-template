@@ -1,6 +1,10 @@
 {
   "author": "James Rucker <code@rucker.land>",
   "devDependencies": {
+    "@tsconfig/vite-react": "^2.0.1",
     "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "build": "tsc"
   }
 }
