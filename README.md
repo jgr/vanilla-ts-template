@@ -1,3 +1,3 @@
-# vite-ts-template
+# vanilla-ts-template
 
-A template for Vitejs typescript applications
+A template for Vanilla typescript applications
